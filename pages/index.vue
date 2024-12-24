@@ -1,4 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="mt-[100px]">Frontend</div>
+  <div class="flex">
+    <div class="my-[150px]">Frontend</div>
+  </div>
 </template>
