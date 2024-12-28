@@ -12,7 +12,7 @@ useHead({
   <v-app>
     <v-main>
       <UseHeader />
-      <div class="mt-[100px] sm:mx-[50px] mx-[30px]">
+      <div class="mt-[100px] ">
         <slot />
       </div>
     </v-main>

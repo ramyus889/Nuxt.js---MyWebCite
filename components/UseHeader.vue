@@ -43,7 +43,7 @@ watch(width, (newWidth) => {
             <v-btn
               icon="mdi-api"
               as="nuxt-link"
-              to="/about"
+              to="/useAbout"
               elevation="0"
             ></v-btn>
           </div>

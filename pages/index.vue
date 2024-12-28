@@ -1,6 +1,5 @@
-<script setup lang="ts"></script>
 <template>
-  <div class="flex">
-    <div class="my-[150px]">Frontend</div>
-  </div>
+  <div class="my-[150px] xl:mx-[100px] max-[1280px]:mx-5"><MainIndex /></div>
 </template>
+
+<script setup lang="ts"></script>
