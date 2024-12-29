@@ -4,6 +4,8 @@ export const items1 = [
     image: "/Screenshot_1.png",
     link: "https://web-illa-cloud.netlify.app",
     description: "web-illa-cloud.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Web-illa-cloud",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -27,6 +29,8 @@ export const items1 = [
     image: "/Screenshot_2.png",
     link: "https://magedeveloper.netlify.app",
     description: "magedeveloper.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Magedeveloper",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -50,6 +54,8 @@ export const items1 = [
     image: "/Screenshot_3.png",
     link: "https://fastgendev.netlify.app",
     description: "fastgendev.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Fastgendev",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -73,6 +79,8 @@ export const items1 = [
     image: "/Screenshot_4.png",
     link: "https://vuesneakers747.netlify.app",
     description: "vuesneakers747.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "VueSneakers",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -96,6 +104,8 @@ export const items1 = [
     image: "/Screenshot_5.png",
     link: "https://hyperwebdev.netlify.app",
     description: "hyperwebdev.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Hyperwebdev",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -119,6 +129,8 @@ export const items1 = [
     image: "/Screenshot_11.png",
     link: "https://webupstash.netlify.app/",
     description: "webupstash.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Upstash",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -142,6 +154,8 @@ export const items1 = [
     image: "/Screenshot_12.png",
     link: "https://freesets-api.netlify.app/",
     description: "freesets-api.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Freesets",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",
@@ -165,6 +179,8 @@ export const items1 = [
     image: "/Screenshot_13.png",
     link: "https://mytestvue747.netlify.app/",
     description: "mytestvue747.netlify.app",
+    descriptionChip:
+      "Этот веб-сайт создан с использованием Vue.js, прогрессивной среды JavaScript для создания пользовательских интерфейсов. Он также использует AOS для анимации, Tailwind CSS для стилизации и PrimeVue для компонентов пользовательского интерфейса. Сайт размещен на Netlify.",
     title: "Mytestvue747",
     framework: "Vue.js",
     linkFramework: "https://vuejs.org/",

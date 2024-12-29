@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-20">
     <div v-for="item in items1" :key="item.id" class="">
       <div
-        class="flex lg:flex-row flex-col gap-10 bg-[#212121] rounded-xl py-5 px-5"
+        class="flex lg:flex-row flex-col sm:gap-10 gap-7 bg-[#212121] rounded-xl py-5 px-3"
       >
         <div class="flex place-content-center">
           <v-skeleton-loader
@@ -12,7 +12,7 @@
           ></v-skeleton-loader>
           <img v-else :src="item.image" class="rounded-xl" width="600" alt="" />
         </div>
-        <div class="mt-5">
+        <div class="sm:mt-3">
           <div class="text-2xl">{{ item.title }}</div>
           <div class="">
             <a
@@ -21,6 +21,27 @@
               class="hover:text-[#3b82f6] transition-colors"
               >{{ item.description }}</a
             >
+          </div>
+          <ChipItem
+            :loading="item.loading"
+            :framework="item.framework"
+            :linkFramework="item.linkFramework"
+            :imageFramework="item.imageFramework"
+            :library="item.library"
+            :linkLibrary="item.linkLibrary"
+            :imageLibrary="item.imageLibrary"
+            :UIFrameworkT="item.UIFrameworkT"
+            :linkUIFrameworkT="item.linkUIFrameworkT"
+            :imageUIFrameworkT="item.imageUIFrameworkT"
+            :UIFrameworkP="item.UIFrameworkP"
+            :linkUIFrameworkP="item.linkUIFrameworkP"
+            :imageUIFrameworkP="item.imageUIFrameworkP"
+            :Servis="item.Servis"
+            :linkServis="item.linkServis"
+            :imageServis="item.imageServis"
+          />
+          <div class="mt-5 max-w-[600px]">
+            {{ item.descriptionChip }}
           </div>
         </div>
       </div>
