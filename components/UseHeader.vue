@@ -21,7 +21,30 @@ watch(width, (newWidth) => {
     >
       <div class="flex items-center justify-between">
         <div class="flex sm:hidden">
-          <v-btn icon="mdi-menu" elevation="0"></v-btn>
+          <v-speed-dial location="bottom center" transition="fade-transition">
+            <template v-slot:activator="{ props: activatorProps }">
+              <v-fab
+                v-bind="activatorProps"
+                size="large"
+                icon="mdi-menu"
+              ></v-fab>
+            </template>
+
+            <v-btn
+              key="1"
+              as="nuxt-link"
+              to="/"
+              icon="mdi-home"
+              class="mt-8 ms-3"
+            ></v-btn>
+            <v-btn
+              key="2"
+              as="nuxt-link"
+              to="/useAbout"
+              icon="mdi-api"
+              class="ms-3"
+            ></v-btn>
+          </v-speed-dial>
         </div>
 
         <div class="text-lg font-semibold">Frontend</div>
