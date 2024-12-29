@@ -30,6 +30,10 @@
 
 <script setup lang="ts">
 import { items1 as originalItems } from "../Items";
+useHead({
+  title: "MyWebSite - Главная страница",
+  link: [{ rel: "icon", type: "image/x-icon", href: "/img/Code/frontend.jpg" }],
+});
 
 const items1 = ref(originalItems.map((item) => ({ ...item, loading: true })));
 
@@ -48,8 +52,13 @@ onMounted(async () => {
 </script>
 
 <style scoped>
-.v-skeleton-loader {
+.v-skeleton-loader:deep(.v-skeleton-loader__image) {
   border-radius: 16px;
   height: 422px;
+}
+@media screen and (max-width: 500px) {
+  .v-skeleton-loader:deep(.v-skeleton-loader__image) {
+    height: 250px;
+  }
 }
 </style>
