@@ -18,7 +18,7 @@
             <a
               :href="item.link"
               target="_blank"
-              class="hover:text-[#3b82f6] transition-colors"
+              class="text-[#3b82f6] hover:text-[#2b60b6] transition-colors"
               >{{ item.description }}</a
             >
           </div>
