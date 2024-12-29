@@ -51,10 +51,6 @@
 
 <script setup lang="ts">
 import { items1 as originalItems } from "../../../Items";
-useHead({
-  title: "MyWebSite - Сайты",
-  link: [{ rel: "icon", type: "image/x-icon", href: "/img/Code/frontend.jpg" }],
-});
 
 const items1 = ref(originalItems.map((item) => ({ ...item, loading: true })));
 

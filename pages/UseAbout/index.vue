@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import AboutMain from "./components/AboutMain.vue";
+useHead({
+  title: "MyWebSite - Сайты",
+  link: [{ rel: "icon", type: "image/x-icon", href: "/img/Code/frontend.jpg" }],
+});
 </script>
 <template>
   <div
