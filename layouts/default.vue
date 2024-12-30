@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: "Nuxt.js",
+  title: "Portfolio",
   meta: [
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "description", content: "Nuxt 3 Frontend Development" },
@@ -12,7 +12,7 @@ useHead({
   <v-app>
     <v-main>
       <UseHeader />
-      <div class="mt-[100px] ">
+      <div class="mt-[100px]">
         <slot />
       </div>
     </v-main>

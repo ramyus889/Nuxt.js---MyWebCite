@@ -41,7 +41,7 @@ watch(width, (newWidth) => {
               key="2"
               as="nuxt-link"
               to="/useAbout"
-              icon="mdi-api"
+              icon="mdi-web"
               class="ms-3"
             ></v-btn>
           </v-speed-dial>
@@ -64,7 +64,7 @@ watch(width, (newWidth) => {
           <div class="items-center hidden gap-5 sm:flex">
             <v-btn icon="mdi-home" elevation="0" as="nuxt-link" to="/"></v-btn>
             <v-btn
-              icon="mdi-api"
+              icon="mdi-web"
               as="nuxt-link"
               to="/useAbout"
               elevation="0"
